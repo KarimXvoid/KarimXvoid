@@ -30,9 +30,9 @@ local Main = Window:CreateTab("Main Menu", 4483362458) -- Title, Image
 local Main2 = Window:CreateTab("Coming soon") -- Title, Image
 
 local Button = Main:CreateButton({
-   Name = "Golden weight",
+   Name = "Afk Script",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
-   Interact = 'Changable',
+   Interact = 'Open',
    Callback = function()
      wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
@@ -59,7 +59,7 @@ ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status 
 local Button =Main:CreateButton({
    Name = "Golden Weight",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
-   Interact = 'Changable',
+   Interact = 'Open',
    Callback = function ()
       while wait() do
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Golden"):FireServer()

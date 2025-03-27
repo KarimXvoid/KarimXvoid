@@ -34,8 +34,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main Farm", Icon = "" }),
     Home = Window:AddTab({ Title = "Tab Status", Icon = "" }),
     item = Window:AddTab({ Title = "Item Farm", Icon = "" }),
-    Melee = Window:AddTab({ Title = "Cửa Hàng", Icon = "" })
-    C = Window:AddTab({ Title = "Tab Combat", Icon = "" }),
+    Melee = Window:AddTab({ Title = "Cửa Hàng", Icon = "" }),
     Race = Window:AddTab({ Title = "Mirage + V4", Icon = "" }),
     Raid = Window:AddTab({ Title = "Raid-Fruit", Icon = "" }),
     tele = Window:AddTab({ Title = "Teleport", Icon = "" }),
